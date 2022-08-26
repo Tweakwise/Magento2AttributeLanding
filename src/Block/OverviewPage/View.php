@@ -4,14 +4,14 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Block\OverviewPage;
+namespace Tweakwise\AttributeLanding\Block\OverviewPage;
 
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
-use Emico\AttributeLanding\Model\Page\ImageUploader;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Model\Page\ImageUploader;
 use Magento\Theme\Block\Html\Breadcrumbs;
 use Magento\Cms\Model\Template\FilterProvider;
 use Magento\Framework\Exception\LocalizedException;

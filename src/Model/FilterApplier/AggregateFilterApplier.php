@@ -4,9 +4,9 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model\FilterApplier;
+namespace Tweakwise\AttributeLanding\Model\FilterApplier;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Magento\Framework\ObjectManagerInterface;
 
 class AggregateFilterApplier implements FilterApplierInterface

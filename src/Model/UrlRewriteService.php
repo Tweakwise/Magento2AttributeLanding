@@ -5,10 +5,10 @@
  * @copyright : Copyright Emico B.V. 2020.
  */
 
-namespace Emico\AttributeLanding\Model;
+namespace Tweakwise\AttributeLanding\Model;
 
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
-use Emico\AttributeLanding\Api\UrlRewriteGeneratorInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\UrlRewriteGeneratorInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\StoreManagerInterface;
@@ -19,7 +19,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 
 /**
  * Class UrlRewriteService
- * @package Emico\AttributeLanding\Model
+ * @package Tweakwise\AttributeLanding\Model
  */
 class UrlRewriteService
 {
@@ -80,7 +80,7 @@ class UrlRewriteService
 
     /**
      * @param string $newSuffix
-     * @see \Emico\AttributeLanding\Observer\UrlRewriteGenerateObserver::execute()
+     * @see \Tweakwise\AttributeLanding\Observer\UrlRewriteGenerateObserver::execute()
      */
     public function updateLandingPageRewrites(string $newSuffix = '')
     {

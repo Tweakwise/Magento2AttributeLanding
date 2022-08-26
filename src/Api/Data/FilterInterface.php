@@ -4,7 +4,7 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Api\Data;
+namespace Tweakwise\AttributeLanding\Api\Data;
 
 
 interface FilterInterface

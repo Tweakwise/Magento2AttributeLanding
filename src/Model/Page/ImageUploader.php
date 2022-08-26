@@ -4,10 +4,10 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model\Page;
+namespace Tweakwise\AttributeLanding\Model\Page;
 
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Exception;
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Exception\LocalizedException;

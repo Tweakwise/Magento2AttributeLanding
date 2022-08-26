@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml;
 
 use Magento\Backend\App\Action;
 
 abstract class Page extends Action
 {
-    const ADMIN_MENU_RESOURCE = 'Emico_AttributeLanding::page_management';
+    const ADMIN_MENU_RESOURCE = 'Tweakwise_AttributeLanding::page_management';
 
     /**
      * Init page

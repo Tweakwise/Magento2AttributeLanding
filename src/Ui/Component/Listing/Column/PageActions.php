@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Ui\Component\Listing\Column;
+namespace Tweakwise\AttributeLanding\Ui\Component\Listing\Column;
 
 class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
 {
@@ -10,10 +10,10 @@ class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
      */
     protected $urlBuilder;
 
-    const URL_PATH_DETAILS = 'emico_attributelanding/page/details';
-    const URL_PATH_EDIT = 'emico_attributelanding/page/edit';
-    const URL_PATH_DELETE = 'emico_attributelanding/page/delete';
-    const URL_PATH_DUPLICATE = 'emico_attributelanding/page/duplicate';
+    const URL_PATH_DETAILS = 'tweakwise_attributelanding/page/details';
+    const URL_PATH_EDIT = 'tweakwise_attributelanding/page/edit';
+    const URL_PATH_DELETE = 'tweakwise_attributelanding/page/delete';
+    const URL_PATH_DUPLICATE = 'tweakwise_attributelanding/page/duplicate';
 
     /**
      * @param \Magento\Framework\View\Element\UiComponent\ContextInterface $context

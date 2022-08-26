@@ -4,7 +4,7 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Api\Data;
+namespace Tweakwise\AttributeLanding\Api\Data;
 
 use Magento\Framework\Api\SearchResultsInterface;
 
@@ -12,7 +12,7 @@ interface OverviewPageSearchResultsInterface extends SearchResultsInterface
 {
     /**
      * Get Page list.
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface[]
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface[]
      */
     public function getItems(): array;
 }

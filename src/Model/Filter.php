@@ -4,10 +4,10 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model;
+namespace Tweakwise\AttributeLanding\Model;
 
 
-use Emico\AttributeLanding\Api\Data\FilterInterface;
+use Tweakwise\AttributeLanding\Api\Data\FilterInterface;
 
 class Filter implements FilterInterface
 {

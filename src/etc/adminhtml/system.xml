@@ -12,10 +12,10 @@
         <tab id="emico" translate="label" sortOrder="999999" class="emico-tab">
             <label>Emico Extensions</label>
         </tab>
-        <section id="emico_attributelanding" sortOrder="-5000" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="tweakwise_attributelanding" sortOrder="-5000" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Attribute landing pages</label>
             <tab>emico</tab>
-            <resource>Emico_AttributeLanding::config</resource>
+            <resource>Tweakwise_AttributeLanding::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General</label>
                 <field id="allow_crosslink" translate="label,comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -27,7 +27,7 @@
                     <label>Append Category url suffix to landingpage Urls</label>
                     <comment>If set to yes the category url suffix will be appended to landingpage urls, this will change landingpage urls. You will need to flush cache and possibly update links</comment>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <backend_model>Emico\AttributeLanding\Model\System\Config\AppendUrlSuffix</backend_model>
+                    <backend_model>Tweakwise\AttributeLanding\Model\System\Config\AppendUrlSuffix</backend_model>
                 </field>
             </group>
         </section>

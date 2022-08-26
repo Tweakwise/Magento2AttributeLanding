@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Model\OverviewPage;
+namespace Tweakwise\AttributeLanding\Model\OverviewPage;
 
-use Emico\AttributeLanding\Model\OverviewPage;
-use Emico\AttributeLanding\Model\ResourceModel\OverviewPage\CollectionFactory;
+use Tweakwise\AttributeLanding\Model\OverviewPage;
+use Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\CollectionFactory;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Ui\DataProvider\AbstractDataProvider;
 
@@ -21,7 +21,7 @@ class DataProvider extends AbstractDataProvider
     protected $dataPersistor;
 
     /**
-     * @var \Emico\AttributeLanding\Model\ResourceModel\OverviewPage\Collection
+     * @var \Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\Collection
      */
     protected $collection;
 
@@ -65,15 +65,15 @@ class DataProvider extends AbstractDataProvider
             /** @var OverviewPage $model */
             $this->loadedData[$model->getPageId()] = $model->getData();
         }
-        $data = $this->dataPersistor->get('emico_attributelanding_overviewpage');
-        
+        $data = $this->dataPersistor->get('tweakwise_attributelanding_overviewpage');
+
         if (!empty($data)) {
             $model = $this->collection->getNewEmptyItem();
             $model->setData($data);
             $this->loadedData[$model->getPageId()] = $model->getData();
-            $this->dataPersistor->clear('emico_attributelanding_overviewpage');
+            $this->dataPersistor->clear('tweakwise_attributelanding_overviewpage');
         }
-        
+
         return $this->loadedData;
     }
 }

@@ -4,9 +4,9 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model\FilterHider;
+namespace Tweakwise\AttributeLanding\Model\FilterHider;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Magento\Catalog\Model\Layer\Filter\Item;
 use Magento\Catalog\Model\Layer\Filter\FilterInterface;
 

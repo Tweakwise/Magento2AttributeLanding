@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\OverviewPage;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\OverviewPage;
 
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\Data\OverviewPageInterfaceFactory;
-use Emico\AttributeLanding\Api\OverviewPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterfaceFactory;
+use Tweakwise\AttributeLanding\Api\OverviewPageRepositoryInterface;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Api\DataObjectHelper;
@@ -90,7 +90,7 @@ class Save extends Action
             $this->overviewPageRepository->save($page);
 
             $this->messageManager->addSuccessMessage(__('You saved the Page.'));
-            $this->dataPersistor->clear('emico_attributelanding_overviewpage');
+            $this->dataPersistor->clear('tweakwise_attributelanding_overviewpage');
 
             if ($this->getRequest()->getParam('back')) {
                 return $resultRedirect->setPath('*/*/edit', ['page_id' => $page->getPageId()]);
@@ -103,7 +103,7 @@ class Save extends Action
             $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the Page.'));
         }
 
-        $this->dataPersistor->set('emico_attributelanding_overviewpage', $data);
+        $this->dataPersistor->set('tweakwise_attributelanding_overviewpage', $data);
         return $resultRedirect->setPath('*/*/edit', ['page_id' => $this->getRequest()->getParam('page_id')]);
     }
 }

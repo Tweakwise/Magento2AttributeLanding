@@ -1,5 +1,5 @@
 {
-    "name": "emico/m2-attributelanding",
+    "name": "tweakwise/m2-attributelanding",
     "description": "Attribute landing pages for Magento 2",
     "require": {
         "php": ">=7.4 <8.2",
@@ -8,20 +8,19 @@
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "*",
-        "phpcompatibility/php-compatibility": "*",
-        "phpro/grumphp": "^0.15.2"
+        "phpcompatibility/php-compatibility": "*"
     },
     "prefer-stable" : true,
     "type": "magento2-module",
     "suggest": {
-        "emico/m2-attributelanding-tweakwise": "Install to use attributelanding page in combination with Tweakwise"
+        "tweakwise/m2-attributelanding-tweakwise": "Install to use attributelanding page in combination with Tweakwise"
     },
     "autoload": {
         "files": [
             "src/registration.php"
         ],
         "psr-4": {
-            "Emico\\AttributeLanding\\": "src"
+            "Tweakwise\\AttributeLanding\\": "src"
         }
     },
     "repositories": [

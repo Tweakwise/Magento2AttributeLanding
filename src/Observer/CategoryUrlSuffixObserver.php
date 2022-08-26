@@ -5,20 +5,20 @@
  * @copyright : Copyright Emico B.V. 2020.
  */
 
-namespace Emico\AttributeLanding\Observer;
+namespace Tweakwise\AttributeLanding\Observer;
 
-use Emico\AttributeLanding\Model\Config;
+use Tweakwise\AttributeLanding\Model\Config;
 use Magento\Catalog\Model\System\Config\Backend\Catalog\Url\Rewrite\Suffix;
 use Magento\CatalogUrlRewrite\Model\CategoryUrlPathGenerator;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
-use Emico\AttributeLanding\Model\UrlRewriteService;
+use Tweakwise\AttributeLanding\Model\UrlRewriteService;
 
 /**
  * Update landing page url rewrites if category url suffix changes
  *
  * Class CategoryUrlSuffixObserver
- * @package Emico\AttributeLanding\Observer
+ * @package Tweakwise\AttributeLanding\Observer
  */
 class CategoryUrlSuffixObserver implements ObserverInterface
 {

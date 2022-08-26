@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\Page;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
-use Emico\AttributeLanding\Controller\Adminhtml\Page;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 use Magento\Backend\App\Action\Context;
 
 class Delete extends Page

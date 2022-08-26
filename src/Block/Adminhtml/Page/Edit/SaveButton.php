@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Block\Adminhtml\Page\Edit;
+namespace Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 

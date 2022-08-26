@@ -1,21 +1,21 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Model;
+namespace Tweakwise\AttributeLanding\Model;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\OverviewPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\OverviewPageRepositoryInterface;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Api\SearchCriteriaInterface;
-use Emico\AttributeLanding\Api\Data\PageSearchResultsInterfaceFactory;
-use Emico\AttributeLanding\Model\ResourceModel\OverviewPage as ResourcePage;
+use Tweakwise\AttributeLanding\Api\Data\PageSearchResultsInterfaceFactory;
+use Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage as ResourcePage;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Exception\CouldNotDeleteException;
-use Emico\AttributeLanding\Model\ResourceModel\OverviewPage\CollectionFactory as PageCollectionFactory;
-use Emico\AttributeLanding\Api\Data\OverviewPageInterfaceFactory;
+use Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\CollectionFactory as PageCollectionFactory;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterfaceFactory;
 
 class OverviewPageRepository implements OverviewPageRepositoryInterface
 {

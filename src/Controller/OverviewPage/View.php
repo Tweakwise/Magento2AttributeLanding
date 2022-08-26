@@ -4,10 +4,10 @@
  * @copyright : Copyright Emico B.V. 2019.
  */
 
-namespace Emico\AttributeLanding\Controller\OverviewPage;
+namespace Tweakwise\AttributeLanding\Controller\OverviewPage;
 
-use Emico\AttributeLanding\Api\OverviewPageRepositoryInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Api\OverviewPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\Controller\ResultInterface;

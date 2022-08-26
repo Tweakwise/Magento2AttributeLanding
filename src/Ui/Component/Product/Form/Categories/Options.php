@@ -1,5 +1,5 @@
 <?php
-namespace Emico\AttributeLanding\Ui\Component\Product\Form\Categories;
+namespace Tweakwise\AttributeLanding\Ui\Component\Product\Form\Categories;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory as CategoryCollectionFactory;

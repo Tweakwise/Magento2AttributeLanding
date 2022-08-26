@@ -5,9 +5,9 @@
  */
 
 
-namespace Emico\AttributeLanding\Model\ResourceModel;
+namespace Tweakwise\AttributeLanding\Model\ResourceModel;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 class OverviewPage extends AbstractDb
@@ -15,7 +15,7 @@ class OverviewPage extends AbstractDb
 
     protected function _construct()
     {
-        $this->_init('emico_attributelanding_overviewpage', LandingPageInterface::PAGE_ID);
+        $this->_init('tweakwise_attributelanding_overviewpage', LandingPageInterface::PAGE_ID);
     }
 
 }

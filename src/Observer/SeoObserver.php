@@ -4,14 +4,14 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Observer;
+namespace Tweakwise\AttributeLanding\Observer;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Controller\Page\ViewContext;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Controller\Page\ViewContext;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\Catalog\Block\Category\View as LandingPageView;
-use Emico\AttributeLanding\Block\OverviewPage\View as OverviewPageView;
+use Tweakwise\AttributeLanding\Block\OverviewPage\View as OverviewPageView;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\View\Page\Config;

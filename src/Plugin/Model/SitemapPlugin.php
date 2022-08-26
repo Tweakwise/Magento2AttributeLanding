@@ -4,9 +4,9 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Plugin\Model;
+namespace Tweakwise\AttributeLanding\Plugin\Model;
 
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
 use Magento\Framework\DataObject;
 use Magento\Sitemap\Helper\Data;
 use Magento\Sitemap\Model\Sitemap;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Ui\Component\Listing\Column;
+namespace Tweakwise\AttributeLanding\Ui\Component\Listing\Column;
 
 use Magento\Framework\UrlInterface;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
@@ -11,10 +11,10 @@ use Magento\Ui\Component\Listing\Columns\Column;
 class OverviewPageActions extends Column
 {
 
-    const URL_PATH_DETAILS = 'emico_attributelanding/overviewpage/details';
+    const URL_PATH_DETAILS = 'tweakwise_attributelanding/overviewpage/details';
     protected $urlBuilder;
-    const URL_PATH_EDIT = 'emico_attributelanding/overviewpage/edit';
-    const URL_PATH_DELETE = 'emico_attributelanding/overviewpage/delete';
+    const URL_PATH_EDIT = 'tweakwise_attributelanding/overviewpage/edit';
+    const URL_PATH_DELETE = 'tweakwise_attributelanding/overviewpage/delete';
 
     /**
      * @param ContextInterface $context

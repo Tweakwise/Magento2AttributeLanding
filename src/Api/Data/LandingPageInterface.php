@@ -4,7 +4,7 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Api\Data;
+namespace Tweakwise\AttributeLanding\Api\Data;
 
 use Magento\Framework\Api\ExtensibleDataInterface;
 
@@ -39,14 +39,14 @@ interface LandingPageInterface extends ExtensibleDataInterface
 
     /**
      * Set an extension attributes object.
-     * @param \Emico\AttributeLanding\Api\Data\LandingPageExtensionInterface $extensionAttributes
+     * @param \Tweakwise\AttributeLanding\Api\Data\LandingPageExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes(LandingPageExtensionInterface $extensionAttributes): LandingPageInterface;
 
     /**
      * Retrieve existing extension attributes object or create a new one.
-     * @return \Emico\AttributeLanding\Api\Data\LandingPageExtensionInterface|null
+     * @return \Tweakwise\AttributeLanding\Api\Data\LandingPageExtensionInterface|null
      */
     public function getExtensionAttributes();
 
@@ -149,12 +149,12 @@ interface LandingPageInterface extends ExtensibleDataInterface
     /**
      * Set filter_attributes
      * @param string $filterAttributes
-     * @return \Emico\AttributeLanding\Api\Data\LandingPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface
      */
     public function setFilterAttributes( ?string $filterAttributes): LandingPageInterface;
 
     /**
-     * @return \Emico\AttributeLanding\Api\Data\FilterInterface[]
+     * @return \Tweakwise\AttributeLanding\Api\Data\FilterInterface[]
      */
     public function getFilters(): array;
 

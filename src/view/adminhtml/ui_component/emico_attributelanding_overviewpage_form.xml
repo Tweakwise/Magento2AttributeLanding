@@ -2,22 +2,22 @@
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
 	<argument name="data" xsi:type="array">
 		<item name="js_config" xsi:type="array">
-			<item name="provider" xsi:type="string">emico_attributelanding_page_form.page_form_data_source</item>
+			<item name="provider" xsi:type="string">tweakwise_attributelanding_page_form.page_form_data_source</item>
 		</item>
 		<item name="label" translate="true" xsi:type="string">General Information</item>
 		<item name="template" xsi:type="string">templates/form/collapsible</item>
 	</argument>
 	<settings>
 		<buttons>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\BackButton" name="back"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\DeleteButton" name="delete"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\SaveButton" name="save"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\SaveAndContinueButton" name="save_and_continue"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\BackButton" name="back"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\DeleteButton" name="delete"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\SaveButton" name="save"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\OverviewPage\Edit\SaveAndContinueButton" name="save_and_continue"/>
 		</buttons>
-		<namespace>emico_attributelanding_overviewpage_form</namespace>
+		<namespace>tweakwise_attributelanding_overviewpage_form</namespace>
 		<dataScope>data</dataScope>
 		<deps>
-			<dep>emico_attributelanding_overviewpage_form.overviewpage_form_data_source</dep>
+			<dep>tweakwise_attributelanding_overviewpage_form.overviewpage_form_data_source</dep>
 		</deps>
 	</settings>
 	<dataSource name="page_form_data_source">
@@ -29,7 +29,7 @@
 		<settings>
 			<submitUrl path="*/*/save"/>
 		</settings>
-		<dataProvider class="Emico\AttributeLanding\Model\OverviewPage\DataProvider" name="overviewpage_form_data_source">
+		<dataProvider class="Tweakwise\AttributeLanding\Model\OverviewPage\DataProvider" name="overviewpage_form_data_source">
 			<settings>
 				<requestFieldName>page_id</requestFieldName>
 				<primaryFieldName>page_id</primaryFieldName>

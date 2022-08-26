@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Emico\AttributeLanding\Block\OverviewPage\View" name="attributelanding.overview" template="Emico_AttributeLanding::overview-page/view.phtml" />
+            <block class="Tweakwise\AttributeLanding\Block\OverviewPage\View" name="attributelanding.overview" template="Tweakwise_AttributeLanding::overview-page/view.phtml" />
         </referenceContainer>
     </body>
 </page>

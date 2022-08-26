@@ -4,7 +4,7 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Api;
+namespace Tweakwise\AttributeLanding\Api;
 
 
 interface UrlRewriteGeneratorInterface

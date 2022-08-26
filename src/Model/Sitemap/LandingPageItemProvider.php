@@ -4,10 +4,10 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Model\Sitemap;
+namespace Tweakwise\AttributeLanding\Model\Sitemap;
 
 
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\Sitemap\Model\ItemProvider\CategoryConfigReader;

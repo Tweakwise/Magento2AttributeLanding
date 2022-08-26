@@ -4,11 +4,11 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Model\Config\Source;
+namespace Tweakwise\AttributeLanding\Model\Config\Source;
 
 
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\OverviewPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\OverviewPageRepositoryInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Api\SortOrder;
 use Magento\Framework\Option\ArrayInterface;

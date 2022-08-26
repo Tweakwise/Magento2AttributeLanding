@@ -1,18 +1,18 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Model;
+namespace Tweakwise\AttributeLanding\Model;
 
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\Data\StoreSelectableInterface;
-use Emico\AttributeLanding\Api\UrlRewriteGeneratorInterface;
-use Emico\AttributeLanding\Model\ResourceModel\OverviewPage as PageResourceModel;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\StoreSelectableInterface;
+use Tweakwise\AttributeLanding\Api\UrlRewriteGeneratorInterface;
+use Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage as PageResourceModel;
 use Magento\Framework\Model\AbstractModel;
 
 class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRewriteGeneratorInterface
 {
 
-    protected $_eventPrefix = 'emico_attributelanding_overviewpage';
+    protected $_eventPrefix = 'tweakwise_attributelanding_overviewpage';
 
     /**
      * Initialize resource model
@@ -37,7 +37,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set page_id
      * @param string $pageId
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setPageId($pageId): OverviewPageInterface
     {
@@ -56,7 +56,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set active
      * @param string $active
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setActive($active): OverviewPageInterface
     {
@@ -75,7 +75,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set name
      * @param string $name
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setName($name): OverviewPageInterface
     {
@@ -94,7 +94,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set url_path
      * @param string $urlPath
-     * @return \Emico\AttributeLanding\Api\Data\LandingPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface
      */
     public function setUrlPath($urlPath): OverviewPageInterface
     {
@@ -113,7 +113,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set heading
      * @param string $heading
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setHeading($heading): OverviewPageInterface
     {
@@ -132,7 +132,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set meta_title
      * @param string $metaTitle
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setMetaTitle($metaTitle): OverviewPageInterface
     {
@@ -151,7 +151,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set meta_keywords
      * @param string $metaKeywords
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setMetaKeywords($metaKeywords): OverviewPageInterface
     {
@@ -170,7 +170,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set meta_description
      * @param string $metaDescription
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setMetaDescription($metaDescription): OverviewPageInterface
     {
@@ -189,7 +189,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set content_first
      * @param string $contentFirst
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setContentFirst($contentFirst): OverviewPageInterface
     {
@@ -208,7 +208,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
     /**
      * Set content_last
      * @param string $contentLast
-     * @return \Emico\AttributeLanding\Api\Data\OverviewPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface
      */
     public function setContentLast($contentLast): OverviewPageInterface
     {
@@ -254,7 +254,7 @@ class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRe
      */
     public function getUrlRewriteTargetPath(): string
     {
-        return sprintf('emico_attributelanding/overviewPage/view/id/%d', $this->getPageId());
+        return sprintf('tweakwise_attributelanding/overviewPage/view/id/%d', $this->getPageId());
     }
 
     /**

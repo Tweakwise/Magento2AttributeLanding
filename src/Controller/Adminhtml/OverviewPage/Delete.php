@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\OverviewPage;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\OverviewPage;
 
-use Emico\AttributeLanding\Api\OverviewPageRepositoryInterface;
-use Emico\AttributeLanding\Controller\Adminhtml\OverviewPage;
+use Tweakwise\AttributeLanding\Api\OverviewPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Controller\Adminhtml\OverviewPage;
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Redirect;
 use Magento\Framework\Controller\ResultInterface;

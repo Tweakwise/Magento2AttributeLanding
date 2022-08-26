@@ -4,12 +4,12 @@
  * @copyright : Copyright Emico B.V. 2019.
  */
 
-namespace Emico\AttributeLanding\Controller\LandingPage;
+namespace Tweakwise\AttributeLanding\Controller\LandingPage;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
-use Emico\AttributeLanding\Model\FilterApplier\FilterApplierInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Model\FilterApplier\FilterApplierInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;

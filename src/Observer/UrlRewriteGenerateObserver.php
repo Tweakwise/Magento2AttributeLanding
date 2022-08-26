@@ -4,10 +4,10 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Observer;
+namespace Tweakwise\AttributeLanding\Observer;
 
-use Emico\AttributeLanding\Api\UrlRewriteGeneratorInterface;
-use Emico\AttributeLanding\Model\UrlRewriteService;
+use Tweakwise\AttributeLanding\Api\UrlRewriteGeneratorInterface;
+use Tweakwise\AttributeLanding\Model\UrlRewriteService;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\Page;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
-use Emico\AttributeLanding\Controller\Adminhtml\Page;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Redirect;
 use Magento\Framework\Controller\ResultInterface;

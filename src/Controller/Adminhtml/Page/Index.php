@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\Page;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 
-use Emico\AttributeLanding\Controller\Adminhtml\Page;
+use Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;

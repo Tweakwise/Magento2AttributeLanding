@@ -4,10 +4,10 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\Page;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 
 
-use Emico\AttributeLanding\Model\Page\ImageUploader;
+use Tweakwise\AttributeLanding\Model\Page\ImageUploader;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Controller\Result\Json;
 use Magento\Framework\Controller\ResultFactory;

@@ -4,12 +4,12 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model\Page;
+namespace Tweakwise\AttributeLanding\Model\Page;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Model\LandingPage;
-use Emico\AttributeLanding\Model\ResourceModel\Page\Collection;
-use Emico\AttributeLanding\Model\ResourceModel\Page\CollectionFactory;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Model\LandingPage;
+use Tweakwise\AttributeLanding\Model\ResourceModel\Page\Collection;
+use Tweakwise\AttributeLanding\Model\ResourceModel\Page\CollectionFactory;
 use Magento\Framework\App\Request\DataPersistorInterface;
 
 class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
@@ -90,15 +90,15 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 
             $this->loadedData[$model->getPageId()] = $modelData;
         }
-        $data = $this->dataPersistor->get('emico_attributelanding_page');
-        
+        $data = $this->dataPersistor->get('tweakwise_attributelanding_page');
+
         if (!empty($data)) {
             $model = $this->collection->getNewEmptyItem();
             $model->setData($data);
             $this->loadedData[$model->getPageId()] = $model->getData();
-            $this->dataPersistor->clear('emico_attributelanding_page');
+            $this->dataPersistor->clear('tweakwise_attributelanding_page');
         }
-        
+
         return $this->loadedData;
     }
 }

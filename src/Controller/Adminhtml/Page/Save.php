@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml\Page;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml\Page;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Redirect;
@@ -90,7 +90,7 @@ class Save extends Action
             $this->landingPageRepository->save($page);
 
             $this->messageManager->addSuccessMessage(__('You saved the Page.'));
-            $this->dataPersistor->clear('emico_attributelanding_page');
+            $this->dataPersistor->clear('tweakwise_attributelanding_page');
 
             if ($this->getRequest()->getParam('back')) {
                 return $resultRedirect->setPath('*/*/edit', ['page_id' => $page->getPageId()]);
@@ -103,7 +103,7 @@ class Save extends Action
             $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the Page.'));
         }
 
-        $this->dataPersistor->set('emico_attributelanding_page', $data);
+        $this->dataPersistor->set('tweakwise_attributelanding_page', $data);
         return $resultRedirect->setPath('*/*/edit', ['page_id' => $this->getRequest()->getParam('page_id')]);
     }
 

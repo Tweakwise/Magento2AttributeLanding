@@ -4,11 +4,11 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Block\LandingPage;
+namespace Tweakwise\AttributeLanding\Block\LandingPage;
 
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\Cms\Model\Template\FilterProvider;
 use Magento\Framework\View\Element\Template;
 use Psr\Log\LoggerInterface;

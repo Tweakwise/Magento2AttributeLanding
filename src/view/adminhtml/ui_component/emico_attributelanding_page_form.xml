@@ -2,22 +2,22 @@
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
 	<argument name="data" xsi:type="array">
 		<item name="js_config" xsi:type="array">
-			<item name="provider" xsi:type="string">emico_attributelanding_page_form.page_form_data_source</item>
+			<item name="provider" xsi:type="string">tweakwise_attributelanding_page_form.page_form_data_source</item>
 		</item>
 		<item name="label" translate="true" xsi:type="string">General Information</item>
 		<item name="template" xsi:type="string">templates/form/collapsible</item>
 	</argument>
 	<settings>
 		<buttons>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\Page\Edit\BackButton" name="back"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\Page\Edit\DeleteButton" name="delete"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\Page\Edit\SaveButton" name="save"/>
-			<button class="Emico\AttributeLanding\Block\Adminhtml\Page\Edit\SaveAndContinueButton" name="save_and_continue"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit\BackButton" name="back"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit\DeleteButton" name="delete"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit\SaveButton" name="save"/>
+			<button class="Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit\SaveAndContinueButton" name="save_and_continue"/>
 		</buttons>
-		<namespace>emico_attributelanding_page_form</namespace>
+		<namespace>tweakwise_attributelanding_page_form</namespace>
 		<dataScope>data</dataScope>
 		<deps>
-			<dep>emico_attributelanding_page_form.page_form_data_source</dep>
+			<dep>tweakwise_attributelanding_page_form.page_form_data_source</dep>
 		</deps>
 	</settings>
 	<dataSource name="page_form_data_source">
@@ -29,7 +29,7 @@
 		<settings>
 			<submitUrl path="*/*/save"/>
 		</settings>
-		<dataProvider class="Emico\AttributeLanding\Model\Page\DataProvider" name="page_form_data_source">
+		<dataProvider class="Tweakwise\AttributeLanding\Model\Page\DataProvider" name="page_form_data_source">
 			<settings>
 				<requestFieldName>page_id</requestFieldName>
 				<primaryFieldName>page_id</primaryFieldName>
@@ -101,7 +101,7 @@
 		</field>
 		<field formElement="select" name="category_id" sortOrder="30">
 			<argument name="data" xsi:type="array">
-                <item name="options" xsi:type="object">Emico\AttributeLanding\Ui\Component\Product\Form\Categories\Options</item>
+                <item name="options" xsi:type="object">Tweakwise\AttributeLanding\Ui\Component\Product\Form\Categories\Options</item>
 				<item name="config" xsi:type="array">
 					<item name="componentType" xsi:type="string">field</item>
 					<item name="component" xsi:type="string">Magento_Catalog/js/components/new-category</item>
@@ -242,7 +242,7 @@
 			<formElements>
 				<select>
 					<settings>
-						<options class="Emico\Tweakwise\Model\Config\Source\FilterTemplate" />
+						<options class="Tweakwise\Tweakwise\Model\Config\Source\FilterTemplate" />
 					</settings>
 				</select>
 			</formElements>
@@ -266,7 +266,7 @@
 			<formElements>
 				<select>
 					<settings>
-						<options class="Emico\Tweakwise\Model\Config\Source\SortTemplate" />
+						<options class="Tweakwise\Tweakwise\Model\Config\Source\SortTemplate" />
 					</settings>
 				</select>
 			</formElements>
@@ -505,7 +505,7 @@
 			<formElements>
 				<select>
 					<settings>
-						<options class="Emico\AttributeLanding\Model\Config\Source\OverviewPage"/>
+						<options class="Tweakwise\AttributeLanding\Model\Config\Source\OverviewPage"/>
 					</settings>
 				</select>
 			</formElements>

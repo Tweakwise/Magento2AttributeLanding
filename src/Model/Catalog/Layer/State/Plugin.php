@@ -4,11 +4,11 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Model\Catalog\Layer\State;
+namespace Tweakwise\AttributeLanding\Model\Catalog\Layer\State;
 
-use Emico\AttributeLanding\Controller\Page\ViewContext;
-use Emico\AttributeLanding\Model\FilterHider\FilterHiderInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Controller\Page\ViewContext;
+use Tweakwise\AttributeLanding\Model\FilterHider\FilterHiderInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\Catalog\Model\Layer\Filter\Item;
 use Magento\Catalog\Model\Layer\State;
 

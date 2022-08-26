@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Block\Adminhtml\Page\Edit;
+namespace Tweakwise\AttributeLanding\Block\Adminhtml\Page\Edit;
 
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Magento\Backend\Block\Widget\Context;
 
 abstract class GenericButton

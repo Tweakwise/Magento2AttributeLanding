@@ -5,9 +5,9 @@
  * @copyright : Copyright Emico B.V. 2020.
  */
 
-namespace Emico\AttributeLanding\Model\System\Config;
+namespace Tweakwise\AttributeLanding\Model\System\Config;
 
-use Emico\AttributeLanding\Model\UrlRewriteService;
+use Tweakwise\AttributeLanding\Model\UrlRewriteService;
 use Magento\CatalogUrlRewrite\Model\CategoryUrlPathGenerator;
 use Magento\Framework\App\Cache\TypeListInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;

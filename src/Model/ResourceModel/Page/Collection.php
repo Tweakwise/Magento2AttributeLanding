@@ -4,10 +4,10 @@
  * @copyright : Copyright Emico B.V. 2019.
  */
 
-namespace Emico\AttributeLanding\Model\ResourceModel\Page;
+namespace Tweakwise\AttributeLanding\Model\ResourceModel\Page;
 
-use Emico\AttributeLanding\Model\LandingPage;
-use Emico\AttributeLanding\Model\ResourceModel\Page as PageResourceModel;
+use Tweakwise\AttributeLanding\Model\LandingPage;
+use Tweakwise\AttributeLanding\Model\ResourceModel\Page as PageResourceModel;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection

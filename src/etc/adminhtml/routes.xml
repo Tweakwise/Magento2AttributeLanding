@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
 	<router id="admin">
-		<route frontName="emico_attributelanding" id="emico_attributelanding">
-			<module before="Magento_Backend" name="Emico_AttributeLanding"/>
+		<route frontName="tweakwise_attributelanding" id="tweakwise_attributelanding">
+			<module before="Magento_Backend" name="Tweakwise_AttributeLanding"/>
 		</route>
 	</router>
 </config>

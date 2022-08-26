@@ -4,11 +4,11 @@
  * @copyright (c) Emico B.V. 2019
  */
 
-namespace Emico\AttributeLanding\Block\LayeredNavigation\Navigation;
+namespace Tweakwise\AttributeLanding\Block\LayeredNavigation\Navigation;
 
 
-use Emico\AttributeLanding\Model\FilterHider\FilterHiderInterface;
-use Emico\AttributeLanding\Model\LandingPageContext;
+use Tweakwise\AttributeLanding\Model\FilterHider\FilterHiderInterface;
+use Tweakwise\AttributeLanding\Model\LandingPageContext;
 use Magento\LayeredNavigation\Block\Navigation;
 
 /**

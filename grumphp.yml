@@ -1,8 +1,0 @@
-parameters:
-    git_dir: .
-    bin_dir: vendor/bin
-    tasks:
-        phpcs:
-            standard: [PHPCompatibility]
-            triggered_by: [php]
-

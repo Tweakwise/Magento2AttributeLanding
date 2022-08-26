@@ -1,11 +1,10 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Api;
+namespace Tweakwise\AttributeLanding\Api;
 
-
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
 
@@ -13,8 +12,8 @@ interface LandingPageRepositoryInterface
 {
     /**
      * Save Page
-     * @param \Emico\AttributeLanding\Api\Data\LandingPageInterface $page
-     * @return \Emico\AttributeLanding\Api\Data\LandingPageInterface
+     * @param \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface $page
+     * @return \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function save(LandingPageInterface $page): LandingPageInterface;
@@ -22,7 +21,7 @@ interface LandingPageRepositoryInterface
     /**
      * Retrieve Page
      * @param int $pageId
-     * @return \Emico\AttributeLanding\Api\Data\LandingPageInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      * @throws NoSuchEntityException
      */
@@ -31,14 +30,14 @@ interface LandingPageRepositoryInterface
     /**
      * Retrieve Page matching the specified criteria.
      * @param SearchCriteriaInterface $searchCriteria
-     * @return \Emico\AttributeLanding\Api\Data\PageSearchResultsInterface
+     * @return \Tweakwise\AttributeLanding\Api\Data\PageSearchResultsInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getList(SearchCriteriaInterface $searchCriteria);
 
     /**
      * Delete Page
-     * @param \Emico\AttributeLanding\Api\Data\LandingPageInterface $page
+     * @param \Tweakwise\AttributeLanding\Api\Data\LandingPageInterface $page
      * @return bool true on success
      * @throws \Magento\Framework\Exception\LocalizedException
      */

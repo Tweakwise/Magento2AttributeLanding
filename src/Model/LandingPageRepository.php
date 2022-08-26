@@ -4,22 +4,22 @@
  * @copyright (c) Emico B.V. 2017
  */
 
-namespace Emico\AttributeLanding\Model;
+namespace Tweakwise\AttributeLanding\Model;
 
-use Emico\AttributeLanding\Api\Data\OverviewPageInterface;
-use Emico\AttributeLanding\Api\Data\LandingPageInterface;
-use Emico\AttributeLanding\Api\LandingPageRepositoryInterface;
+use Tweakwise\AttributeLanding\Api\Data\OverviewPageInterface;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterface;
+use Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Api\SearchCriteriaInterface;
-use Emico\AttributeLanding\Api\Data\PageSearchResultsInterfaceFactory;
-use Emico\AttributeLanding\Model\ResourceModel\Page as ResourcePage;
+use Tweakwise\AttributeLanding\Api\Data\PageSearchResultsInterfaceFactory;
+use Tweakwise\AttributeLanding\Model\ResourceModel\Page as ResourcePage;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
 use Magento\Framework\Exception\CouldNotDeleteException;
-use Emico\AttributeLanding\Model\ResourceModel\Page\CollectionFactory as PageCollectionFactory;
+use Tweakwise\AttributeLanding\Model\ResourceModel\Page\CollectionFactory as PageCollectionFactory;
 use Magento\Framework\Api\ExtensionAttribute\JoinProcessorInterface;
-use Emico\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
+use Tweakwise\AttributeLanding\Api\Data\LandingPageInterfaceFactory;
 
 class LandingPageRepository implements LandingPageRepositoryInterface
 {

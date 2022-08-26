@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Emico\AttributeLanding\Controller\Adminhtml;
+namespace Tweakwise\AttributeLanding\Controller\Adminhtml;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -9,7 +9,7 @@ use Magento\Backend\Model\View\Result\Page;
 
 abstract class OverviewPage extends Action
 {
-    const ADMIN_MENU_RESOURCE = 'Emico_AttributeLanding::overviewpage_management';
+    const ADMIN_MENU_RESOURCE = 'Tweakwise_AttributeLanding::overviewpage_management';
 
     /**
      * @param Context $context

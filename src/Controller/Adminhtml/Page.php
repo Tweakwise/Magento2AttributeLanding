@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Tweakwise\AttributeLanding\Controller\Adminhtml;
 
 use Magento\Backend\App\Action;

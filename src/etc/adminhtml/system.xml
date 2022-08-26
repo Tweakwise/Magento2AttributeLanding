@@ -9,12 +9,12 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="emico" translate="label" sortOrder="999999" class="emico-tab">
-            <label>Emico Extensions</label>
+        <tab id="tweakwise" translate="label" sortOrder="999999" class="tweakwise-tab">
+            <label>Tweakwise Extensions</label>
         </tab>
         <section id="tweakwise_attributelanding" sortOrder="-5000" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Attribute landing pages</label>
-            <tab>emico</tab>
+            <tab>tweakwise</tab>
             <resource>Tweakwise_AttributeLanding::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General</label>

@@ -25,7 +25,7 @@
 	</virtualType>
 
 	<virtualType name="Magento\LayeredNavigation\Block\Navigation\Category">
-		<plugin name="emicoAttributeLanding" type="Tweakwise\AttributeLanding\Block\LayeredNavigation\Navigation\FilterHidePlugin" />
+		<plugin name="tweakwiseAttributeLanding" type="Tweakwise\AttributeLanding\Block\LayeredNavigation\Navigation\FilterHidePlugin" />
 	</virtualType>
 
 	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
@@ -46,15 +46,15 @@
 	</type>
 
 	<type name="Magento\Catalog\Model\Layer\State">
-		<plugin name="emicoAttributeLanding" type="Tweakwise\AttributeLanding\Model\Catalog\Layer\State\Plugin" />
+		<plugin name="tweakwiseAttributeLanding" type="Tweakwise\AttributeLanding\Model\Catalog\Layer\State\Plugin" />
 	</type>
 	<type name="Magento\LayeredNavigation\Block\Navigation">
-		<plugin name="emicoAttributeLanding" type="Tweakwise\AttributeLanding\Block\LayeredNavigation\Navigation\FilterHidePlugin" />
+		<plugin name="tweakwiseAttributeLanding" type="Tweakwise\AttributeLanding\Block\LayeredNavigation\Navigation\FilterHidePlugin" />
 	</type>
 
 	<!-- Sitemap compatibility for Magento 2.2 -->
 	<type name="Magento\Sitemap\Model\Sitemap">
-		<plugin name="emicoAttributeLanding" sortOrder="1" disabled="false" type="Tweakwise\AttributeLanding\Plugin\Model\SitemapPlugin" />
+		<plugin name="tweakwiseAttributeLanding" sortOrder="1" disabled="false" type="Tweakwise\AttributeLanding\Plugin\Model\SitemapPlugin" />
 	</type>
 
 	<!-- Sitemap compatibility for Magento 2.3 -->

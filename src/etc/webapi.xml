@@ -1,30 +1,30 @@
 <?xml version="1.0" ?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
-	<route method="POST" url="/V1/emico-attributelanding/page">
+	<route method="POST" url="/V1/tweakwise-attributelanding/page">
 		<service class="Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface" method="save"/>
 		<resources>
 			<resource ref="Tweakwise_AttributeLanding::Page_save"/>
 		</resources>
 	</route>
-	<route method="GET" url="/V1/emico-attributelanding/page/search">
+	<route method="GET" url="/V1/tweakwise-attributelanding/page/search">
 		<service class="Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface" method="getList"/>
 		<resources>
 			<resource ref="Tweakwise_AttributeLanding::Page_view"/>
 		</resources>
 	</route>
-	<route method="GET" url="/V1/emico-attributelanding/page/:pageId">
+	<route method="GET" url="/V1/tweakwise-attributelanding/page/:pageId">
 		<service class="Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface" method="getById"/>
 		<resources>
 			<resource ref="Tweakwise_AttributeLanding::Page_view"/>
 		</resources>
 	</route>
-	<route method="PUT" url="/V1/emico-attributelanding/page/:pageId">
+	<route method="PUT" url="/V1/tweakwise-attributelanding/page/:pageId">
 		<service class="Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface" method="save"/>
 		<resources>
 			<resource ref="Tweakwise_AttributeLanding::Page_update"/>
 		</resources>
 	</route>
-	<route method="DELETE" url="/V1/emico-attributelanding/page/:pageId">
+	<route method="DELETE" url="/V1/tweakwise-attributelanding/page/:pageId">
 		<service class="Tweakwise\AttributeLanding\Api\LandingPageRepositoryInterface" method="deleteById"/>
 		<resources>
 			<resource ref="Tweakwise_AttributeLanding::Page_delete"/>

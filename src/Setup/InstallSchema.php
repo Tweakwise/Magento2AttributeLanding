@@ -35,6 +35,10 @@ class InstallSchema implements InstallSchemaInterface
             $installer->getConnection()->renameTable('emico_attributelanding_overviewpage', 'tweakwise_attributelanding_overviewpage');
         }
 
+        $installer->getConnection()->query('update core_config_data SET path = "tweakwise_attributelanding/general/allow_crosslink" WHERE path = "emico_attributelanding/general/allow_crosslink"');
+        $installer->getConnection()->query('update core_config_data SET path = "tweakwise_attributelanding/general/append_category_url_suffix" WHERE path = "emico_attributelanding/general/append_category_url_suffix"');
+        $installer->getConnection()->query('update core_config_data SET path = "tweakwise_attributelanding/general/canonical_self_referencing" WHERE path = "emico_attributelanding/general/canonical_self_referencing"');
+
         $installer->endSetup();
     }
 }

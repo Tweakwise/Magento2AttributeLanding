@@ -18,7 +18,7 @@ use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\View\Page\Config as PageConfig;
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Theme\Block\Html\Title;
-use Emico\AttributeLanding\Model\Config;
+use Tweakwise\AttributeLanding\Model\Config;
 
 class SeoObserver implements ObserverInterface
 {

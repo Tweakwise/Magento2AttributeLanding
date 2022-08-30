@@ -1,5 +1,5 @@
 {
-    "name": "tweakwise/m2-attributelanding",
+    "name": "tweakwise/magento2-attributelanding",
     "description": "Attribute landing pages for Magento 2",
     "require": {
         "php": ">=7.4 <8.2",

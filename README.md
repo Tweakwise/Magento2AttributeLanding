@@ -14,7 +14,7 @@ Landingpages will be published in the sitemap.
 ## Installation
 Install package using composer
 ```sh
-composer require emico/m2-attributelanding
+composer require tweakwise/magento2-attributelanding
 ```
 
 Run installers

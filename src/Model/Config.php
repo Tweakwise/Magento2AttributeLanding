@@ -75,6 +75,6 @@ class Config
      */
     public function isCanonicalSelfReferencingEnabled(Store $store = null): bool
     {
-        return (bool) $this->config->isSetFlag('emico_attributelanding/general/canonical_self_referencing', ScopeInterface::SCOPE_STORE, $store);
+        return (bool) $this->config->isSetFlag('tweakwise_attributelanding/general/canonical_self_referencing', ScopeInterface::SCOPE_STORE, $store);
     }
 }

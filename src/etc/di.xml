@@ -12,14 +12,14 @@
 
 	<virtualType name="Tweakwise\AttributeLanding\Model\ResourceModel\Page\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
 		<arguments>
-			<argument name="mainTable" xsi:type="string">tweakwise_attributelanding_page</argument>
+			<argument name="mainTable" xsi:type="string">emico_attributelanding_page</argument>
 			<argument name="resourceModel" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\Page\Collection</argument>
 		</arguments>
 	</virtualType>
 
 	<virtualType name="Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
 		<arguments>
-			<argument name="mainTable" xsi:type="string">tweakwise_attributelanding_overviewpage</argument>
+			<argument name="mainTable" xsi:type="string">emico_attributelanding_overviewpage</argument>
 			<argument name="resourceModel" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\Collection</argument>
 		</arguments>
 	</virtualType>

@@ -48,7 +48,7 @@ class Config
      */
     public function isCrossLinkEnabled(Store $store = null): bool
     {
-        return (bool) $this->getStoreConfig('tweakwise_attributelanding/general/allow_crosslink', $store);
+        return (bool) $this->getStoreConfig('emico_attributelanding/general/allow_crosslink', $store);
     }
 
     /**
@@ -57,7 +57,7 @@ class Config
      */
     public function isAppendCategoryUrlSuffix(Store $store = null): bool
     {
-        return (bool) $this->getStoreConfig('tweakwise_attributelanding/general/append_category_url_suffix', $store);
+        return (bool) $this->getStoreConfig('emico_attributelanding/general/append_category_url_suffix', $store);
     }
 
     /**
@@ -75,6 +75,6 @@ class Config
      */
     public function isCanonicalSelfReferencingEnabled(Store $store = null): bool
     {
-        return (bool) $this->config->isSetFlag('tweakwise_attributelanding/general/canonical_self_referencing', ScopeInterface::SCOPE_STORE, $store);
+        return (bool) $this->config->isSetFlag('emico_attributelanding/general/canonical_self_referencing', ScopeInterface::SCOPE_STORE, $store);
     }
 }

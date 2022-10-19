@@ -15,7 +15,7 @@ class OverviewPage extends AbstractDb
 
     protected function _construct()
     {
-        $this->_init('tweakwise_attributelanding_overviewpage', LandingPageInterface::PAGE_ID);
+        $this->_init('emico_attributelanding_overviewpage', LandingPageInterface::PAGE_ID);
     }
 
 }

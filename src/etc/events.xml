@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="emico_attributelanding_page_save_after">
+    <event name="tweakwise_attributelanding_page_save_after">
         <observer name="landingpage_urlrewrite_generate" instance="Tweakwise\AttributeLanding\Observer\UrlRewriteGenerateObserver"/>
         <observer name="landingpage_cache_invalidate" instance="Tweakwise\AttributeLanding\Observer\InvalidateCacheObserver"/>
     </event>
-    <event name="emico_attributelanding_overviewpage_save_after">
+    <event name="tweakwise_attributelanding_overviewpage_save_after">
         <observer name="landingpage_urlrewrite_generate" instance="Tweakwise\AttributeLanding\Observer\UrlRewriteGenerateObserver"/>
     </event>
-    <event name="emico_attributelanding_page_delete_after">
+    <event name="tweakwise_attributelanding_page_delete_after">
         <observer name="landingpage_urlrewrite_remove" instance="Tweakwise\AttributeLanding\Observer\UrlRewriteRemoveObserver"/>
     </event>
-    <event name="emico_attributelanding_overviewpage_delete_after">
+    <event name="tweakwise_attributelanding_overviewpage_delete_after">
         <observer name="landingpage_urlrewrite_remove" instance="Tweakwise\AttributeLanding\Observer\UrlRewriteRemoveObserver"/>
     </event>
     <event name="config_data_save_after">

@@ -21,10 +21,12 @@ class UpgradeSchema implements UpgradeSchemaInterface
 
         //rename old module table to new module
         if ($installer->tableExists('tweakwise_attributelanding_page')) {
+            $installer->getConnection()->dropTable('emico_attributelanding_page');
             $installer->getConnection()->renameTable('tweakwise_attributelanding_page', 'emico_attributelanding_page');
         }
 
         if ($installer->tableExists('tweakwise_attributelanding_overviewpage')) {
+            $installer->getConnection()->dropTable('emico_attributelanding_overviewpage');
             $installer->getConnection()->renameTable('tweakwise_attributelanding_overviewpage', 'emico_attributelanding_overviewpage');
         }
 

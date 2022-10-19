@@ -25,6 +25,7 @@ class InstallSchema implements InstallSchemaInterface
         $installer->startSetup();
 
         //rename old module table to new module
+        /*
         if ($installer->tableExists('emico_attributelanding_page')) {
             $installer->getConnection()->dropTable('tweakwise_attributelanding_page');
             $installer->getConnection()->renameTable('emico_attributelanding_page', 'tweakwise_attributelanding_page');
@@ -39,7 +40,7 @@ class InstallSchema implements InstallSchemaInterface
         $installer->getConnection()->query('update core_config_data SET path = "tweakwise_attributelanding/general/append_category_url_suffix" WHERE path = "emico_attributelanding/general/append_category_url_suffix"');
         $installer->getConnection()->query('update core_config_data SET path = "tweakwise_attributelanding/general/canonical_self_referencing" WHERE path = "emico_attributelanding/general/canonical_self_referencing"');
         $installer->getConnection()->query('UPDATE url_rewrite SET target_path =  REPLACE( target_path, "emico_attributelanding", "tweakwise_attributelanding") where target_path LIKE "emico_attributelanding%"');
-
+        */
         $installer->endSetup();
     }
 }

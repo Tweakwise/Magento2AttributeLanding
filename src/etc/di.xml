@@ -31,8 +31,8 @@
 	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
 		<arguments>
 			<argument name="collections" xsi:type="array">
-				<item name="emico_attributelanding_page_listing_data_source" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\Page\Grid\Collection</item>
-				<item name="emico_attributelanding_overviewpage_listing_data_source" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\Grid\Collection</item>
+				<item name="tweakwise_attributelanding_page_listing_data_source" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\Page\Grid\Collection</item>
+				<item name="tweakwise_attributelanding_overviewpage_listing_data_source" xsi:type="string">Tweakwise\AttributeLanding\Model\ResourceModel\OverviewPage\Grid\Collection</item>
 			</argument>
 		</arguments>
 	</type>

@@ -90,13 +90,13 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 
             $this->loadedData[$model->getPageId()] = $modelData;
         }
-        $data = $this->dataPersistor->get('tweakwise_attributelanding_page');
+        $data = $this->dataPersistor->get('emico_attributelanding_page');
 
         if (!empty($data)) {
             $model = $this->collection->getNewEmptyItem();
             $model->setData($data);
             $this->loadedData[$model->getPageId()] = $model->getData();
-            $this->dataPersistor->clear('tweakwise_attributelanding_page');
+            $this->dataPersistor->clear('emico_attributelanding_page');
         }
 
         return $this->loadedData;

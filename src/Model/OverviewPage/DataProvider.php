@@ -65,13 +65,13 @@ class DataProvider extends AbstractDataProvider
             /** @var OverviewPage $model */
             $this->loadedData[$model->getPageId()] = $model->getData();
         }
-        $data = $this->dataPersistor->get('tweakwise_attributelanding_overviewpage');
+        $data = $this->dataPersistor->get('emico_attributelanding_overviewpage');
 
         if (!empty($data)) {
             $model = $this->collection->getNewEmptyItem();
             $model->setData($data);
             $this->loadedData[$model->getPageId()] = $model->getData();
-            $this->dataPersistor->clear('tweakwise_attributelanding_overviewpage');
+            $this->dataPersistor->clear('emico_attributelanding_overviewpage');
         }
 
         return $this->loadedData;

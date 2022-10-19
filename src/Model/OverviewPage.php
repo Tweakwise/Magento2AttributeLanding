@@ -12,7 +12,7 @@ use Magento\Framework\Model\AbstractModel;
 class OverviewPage extends AbstractModel implements OverviewPageInterface, UrlRewriteGeneratorInterface
 {
 
-    protected $_eventPrefix = 'tweakwise_attributelanding_overviewpage';
+    protected $_eventPrefix = 'emico_attributelanding_overviewpage';
 
     /**
      * Initialize resource model

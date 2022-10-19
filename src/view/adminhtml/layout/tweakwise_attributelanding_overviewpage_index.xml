@@ -4,7 +4,7 @@
 	<update handle="editor"/>
 	<body>
 		<referenceContainer name="content">
-			<uiComponent name="tweakwise_attributelanding_overviewpage_listing"/>
+			<uiComponent name="emico_attributelanding_overviewpage_listing"/>
 		</referenceContainer>
 	</body>
 </page>

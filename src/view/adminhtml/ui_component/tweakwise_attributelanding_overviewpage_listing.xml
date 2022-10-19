@@ -4,14 +4,14 @@
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
             <item name="provider"
-                  xsi:type="string">tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_listing_data_source
+                  xsi:type="string">emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_listing_data_source
             </item>
         </item>
     </argument>
     <settings>
-        <spinner>tweakwise_attributelanding_overviewpage_columns</spinner>
+        <spinner>emico_attributelanding_overviewpage_columns</spinner>
         <deps>
-            <dep>tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_listing_data_source</dep>
+            <dep>emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_listing_data_source</dep>
         </deps>
         <buttons>
             <button name="add">
@@ -21,13 +21,13 @@
             </button>
         </buttons>
     </settings>
-    <dataSource component="Magento_Ui/js/grid/provider" name="tweakwise_attributelanding_overviewpage_listing_data_source">
+    <dataSource component="Magento_Ui/js/grid/provider" name="emico_attributelanding_overviewpage_listing_data_source">
         <settings>
             <updateUrl path="mui/index/render"/>
         </settings>
         <aclResource>Tweakwise_AttributeLanding::overviewpage_management</aclResource>
         <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider"
-                      name="tweakwise_attributelanding_overviewpage_listing_data_source">
+                      name="emico_attributelanding_overviewpage_listing_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
                 <primaryFieldName>page_id</primaryFieldName>
@@ -43,12 +43,12 @@
         <filters name="listing_filters"/>
         <paging name="listing_paging"/>
     </listingToolbar>
-    <columns name="tweakwise_attributelanding_overviewpage_columns">
+    <columns name="emico_attributelanding_overviewpage_columns">
         <settings>
             <childDefaults>
                 <param name="fieldAction" xsi:type="array">
                     <item name="provider"
-                          xsi:type="string">tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_columns.actions
+                          xsi:type="string">emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_columns.actions
                     </item>
                     <item name="target" xsi:type="string">applyAction</item>
                     <item name="params" xsi:type="array">
@@ -60,7 +60,7 @@
 
             <editorConfig>
                 <param name="selectProvider"
-                       xsi:type="string">tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_listing.tweakwise_attributelanding_overviewpage_columns.ids
+                       xsi:type="string">emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_listing.emico_attributelanding_overviewpage_columns.ids
                 </param>
                 <param name="enabled" xsi:type="boolean">true</param>
                 <param name="indexField" xsi:type="string">page_id</param>

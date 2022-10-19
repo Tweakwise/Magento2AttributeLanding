@@ -18,7 +18,7 @@ use Magento\Framework\Model\ResourceModel\AbstractResource;
 class LandingPage extends AbstractExtensibleModel implements LandingPageInterface, UrlRewriteGeneratorInterface
 {
 
-    protected $_eventPrefix = 'tweakwise_attributelanding_page';
+    protected $_eventPrefix = 'emico_attributelanding_page';
 
     /**
      * @var Config

@@ -23,9 +23,6 @@
             "Tweakwise\\AttributeLanding\\": "src"
         }
     },
-    "replace": {
-        "emico/m2-attributelanding": "3.1.0"
-    },
     "repositories": [
         {
             "type": "composer",

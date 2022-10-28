@@ -1,3 +1,8 @@
+# UPDATE TO emico/m2-attributelanding
+
+This packages wil not langer be updated.
+Update to the latest version of this package, before updating to emico/m2-attributelanding
+
 ## Description
 
 Create Landingpages based on predefined filters and categories.

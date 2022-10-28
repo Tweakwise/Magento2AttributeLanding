@@ -1,6 +1,6 @@
 # UPDATE TO emico/m2-attributelanding
 
-This packages wil not langer be updated.
+This package wil not langer be updated.
 Update to the latest version of this package, before updating to emico/m2-attributelanding
 
 ## Description
